@@ -33,12 +33,12 @@ my_file = path + '/global.css'
 local_css(my_file)
 
 path = os.path.dirname(__file__)
-my_file = path + './logo/logo.css'
+my_file = path + '/logo/logo.css'
 
 local_css(my_file)
 
 path = os.path.dirname(__file__)
-my_file = path + './public/logo-screen@3x.png'
+my_file = path + '/public/logo-screen@3x.png'
 
 file_ = open(my_file, "rb")
 contents = file_.read()
@@ -46,7 +46,7 @@ data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/logo-3@2x.png'
+my_file = path + '/public/logo-3@2x.png'
 
 file_2 = open(my_file, "rb")
 contents2 = file_2.read()
