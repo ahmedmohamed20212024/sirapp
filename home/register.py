@@ -58,22 +58,22 @@ form = f"""
             <div class="input-fields">
               <div class="credentials">
                 <div class="email-field"></div>
-                <input class="email_" placeholder="Phone number or email@gmail.com " type="email" />
+                <input class="email_" placeholder="Phone number or email@gmail.com " type="email" required/>
               </div>
               <div class="name-field">
                 <div class="name-field-child"></div>
-                <input class="full-name" placeholder="Full Name " type="text" />
+                <input class="full-name" placeholder="Full Name " type="text" required/>
               </div>
             </div>
             <div class="username-field">
               <div class="username-input"></div>
-              <input class="usernames" placeholder="Usernames" type="text" />
+              <input class="usernames" placeholder="Usernames" type="text" required/>
             </div>
           </div>
           <div class="password-field">
             <div class="password-input-area">
               <div class="password-entry"></div>
-              <input class="password" placeholder="password" type="password" />
+              <input class="password" placeholder="password" type="password" required/>
             </div>
             <div class="submit-button-area">
               <button class="rectangle-parent">
