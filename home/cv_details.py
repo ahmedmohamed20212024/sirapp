@@ -33,8 +33,6 @@ st.markdown(f"""
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="./global2.css" />
-    <link rel="stylesheet" href="./cv_details.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Athiti:wght@700&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;1,400&display=swap"/>
@@ -53,7 +51,7 @@ my_file = path + '/cv_details/cv_details.css'
 local_css(my_file)
 
 path = os.path.dirname(__file__)
-my_file = path + './public/mdiarrowleftbold.png'
+my_file = path + '/public/mdiarrowleftbold.png'
 
 file_ = open(my_file, "rb")
 contents = file_.read()
@@ -61,7 +59,7 @@ data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/group.png'
+my_file = path + '/public/group.png'
 
 file_2 = open(my_file, "rb")
 contents2 = file_2.read()
@@ -69,7 +67,7 @@ data_url2 = base64.b64encode(contents2).decode("utf-8")
 file_2.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/template-4@2x.png'
+my_file = path + '/public/template-4@2x.png'
 
 file_3 = open(my_file, "rb")
 contents3 = file_3.read()
