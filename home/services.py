@@ -50,7 +50,7 @@ my_file = path + '/services/services.css'
 local_css(my_file)
 
 path = os.path.dirname(__file__)
-my_file = path + './public/rectangle-4.png'
+my_file = path + '/public/rectangle-4.png'
 
 file_ = open(my_file, "rb")
 contents = file_.read()
@@ -58,7 +58,7 @@ data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/vector.png'
+my_file = path + '/public/vector.png'
 
 file_2 = open(my_file, "rb")
 contents2 = file_2.read()
@@ -66,7 +66,7 @@ data_url2 = base64.b64encode(contents2).decode("utf-8")
 file_2.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/logo-2@2x.png'
+my_file = path + '/public/logo-2@2x.png'
 
 file_3 = open(my_file, "rb")
 contents3 = file_3.read()
@@ -74,7 +74,7 @@ data_url3 = base64.b64encode(contents3).decode("utf-8")
 file_3.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/tablerbell.png'
+my_file = path + '/public/tablerbell.png'
 
 file_4 = open(my_file, "rb")
 contents4 = file_4.read()
@@ -82,7 +82,7 @@ data_url4 = base64.b64encode(contents4).decode("utf-8")
 file_4.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/claritysettingssolid.png'
+my_file = path + '/public/claritysettingssolid.png'
 
 file_5 = open(my_file, "rb")
 contents5 = file_5.read()
@@ -90,7 +90,7 @@ data_url5 = base64.b64encode(contents5).decode("utf-8")
 file_5.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/gameiconsexitdoor.png'
+my_file = path + '/public/gameiconsexitdoor.png'
 
 file_6 = open(my_file, "rb")
 contents6 = file_6.read()
