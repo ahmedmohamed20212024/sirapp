@@ -33,8 +33,6 @@ st.markdown(f"""
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./cv_home.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,800&display=swap"/>
@@ -55,7 +53,7 @@ my_file = path + '/cv_home/cv_home.css'
 local_css(my_file)
 
 path = os.path.dirname(__file__)
-my_file = path + './public/mdiarrowleftbold.png'
+my_file = path + '/public/mdiarrowleftbold.png'
 
 file_ = open(my_file, "rb")
 contents = file_.read()
@@ -63,7 +61,7 @@ data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/group.png'
+my_file = path + '/public/group.png'
 
 file_2 = open(my_file, "rb")
 contents2 = file_2.read()
@@ -71,7 +69,7 @@ data_url2 = base64.b64encode(contents2).decode("utf-8")
 file_2.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/mingcuteeditfill.png'
+my_file = path + '/public/mingcuteeditfill.png'
 
 file_3 = open(my_file, "rb")
 contents3 = file_3.read()
@@ -79,7 +77,7 @@ data_url3 = base64.b64encode(contents3).decode("utf-8")
 file_3.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/template-4@2x.png'
+my_file = path + '/public/template-4@2x.png'
 
 file_4 = open(my_file, "rb")
 contents4 = file_4.read()
@@ -87,7 +85,7 @@ data_url4 = base64.b64encode(contents4).decode("utf-8")
 file_4.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/rectangle-42.png'
+my_file = path + '/public/rectangle-42.png'
 
 file_5 = open(my_file, "rb")
 contents5 = file_5.read()
@@ -95,7 +93,7 @@ data_url5 = base64.b64encode(contents5).decode("utf-8")
 file_5.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/claritysettingssolid.png'
+my_file = path + '/public/claritysettingssolid.png'
 
 file_6 = open(my_file, "rb")
 contents6 = file_6.read()
@@ -103,7 +101,7 @@ data_url6 = base64.b64encode(contents6).decode("utf-8")
 file_6.close()
 
 path = os.path.dirname(__file__)
-my_file = path + './public/tablerbell.png'
+my_file = path + '/public/tablerbell.png'
 
 file_7 = open(my_file, "rb")
 contents7 = file_7.read()
@@ -112,7 +110,7 @@ file_7.close()
 
 
 path = os.path.dirname(__file__)
-my_file = path + './public/vector.png'
+my_file = path + '/public/vector.png'
 
 file_8 = open(my_file, "rb")
 contents8 = file_8.read()
@@ -121,7 +119,7 @@ file_8.close()
 
 
 path = os.path.dirname(__file__)
-my_file = path + './public/logo-2@2x.png'
+my_file = path + '/public/logo-2@2x.png'
 
 file_9 = open(my_file, "rb")
 contents9 = file_9.read()
