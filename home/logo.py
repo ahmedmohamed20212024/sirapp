@@ -28,7 +28,7 @@ st.markdown(f"""
             , unsafe_allow_html=True)
 
 path = os.path.dirname(__file__)
-my_file = path + './global.css'
+my_file = path + '/global.css'
 
 local_css(my_file)
 
