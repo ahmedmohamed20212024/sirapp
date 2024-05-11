@@ -16,40 +16,40 @@ def local_css(file_name):
 
 
 path = os.path.dirname(__file__)
-my_file = path + './login/global.css'
+my_file = path + '/login/global.css'
 
 local_css(my_file)
 path = os.path.dirname(__file__)
-my_file = path + './login/login.css'
+my_file = path + '/login/login.css'
 
 local_css(my_file)
 
-file_ = open(os.path.dirname(__file__)+"./public/log-in-screen@3x.png", "rb")
+file_ = open(os.path.dirname(__file__)+"/public/log-in-screen@3x.png", "rb")
 contents = file_.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
 
-file_2 = open(os.path.dirname(__file__)+"./public/rectangle-5.png", "rb")
+file_2 = open(os.path.dirname(__file__)+"/public/rectangle-5.png", "rb")
 contents2 = file_2.read()
 data_url2 = base64.b64encode(contents2).decode("utf-8")
 file_2.close()
 
-file_3 = open(os.path.dirname(__file__)+"./public/image@2x.png", "rb")
+file_3 = open(os.path.dirname(__file__)+"/public/image@2x.png", "rb")
 contents3 = file_3.read()
 data_url3 = base64.b64encode(contents3).decode("utf-8")
 file_3.close()
 
-file_4 = open(os.path.dirname(__file__)+"./public/rectangle-4.png", "rb")
+file_4 = open(os.path.dirname(__file__)+"/public/rectangle-4.png", "rb")
 contents4 = file_4.read()
 data_url4 = base64.b64encode(contents4).decode("utf-8")
 file_4.close()
 
-file_5 = open(os.path.dirname(__file__)+"./public/logo-2@2x.png", "rb")
+file_5 = open(os.path.dirname(__file__)+"/public/logo-2@2x.png", "rb")
 contents5 = file_5.read()
 data_url5 = base64.b64encode(contents5).decode("utf-8")
 file_5.close()
 
-file_6 = open(os.path.dirname(__file__)+"./public/-1@2x.png", "rb")
+file_6 = open(os.path.dirname(__file__)+"/public/-1@2x.png", "rb")
 contents6 = file_6.read()
 data_url6 = base64.b64encode(contents6).decode("utf-8")
 file_6.close()
