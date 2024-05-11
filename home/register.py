@@ -14,22 +14,22 @@ def local_css(file_name):
 
 
 path = os.path.dirname(__file__)
-my_file = path + './register/global.css'
+my_file = path + '/register/global.css'
 
 local_css(my_file)
 
 path = os.path.dirname(__file__)
-my_file = path + './register/register.css'
+my_file = path + '/register/register.css'
 
 local_css(my_file)
 
 
-file_ = open(os.path.dirname(__file__)+"./public/logo-3@2x.png", "rb")
+file_ = open(os.path.dirname(__file__)+"/public/logo-3@2x.png", "rb")
 contents = file_.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
 
-file_2 = open(os.path.dirname(__file__)+"./public/log-in-screen2@3x.png", "rb")
+file_2 = open(os.path.dirname(__file__)+"/public/log-in-screen2@3x.png", "rb")
 contents2 = file_2.read()
 data_url2 = base64.b64encode(contents2).decode("utf-8")
 file_2.close()
