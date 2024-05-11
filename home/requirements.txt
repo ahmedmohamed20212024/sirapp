@@ -2,5 +2,3 @@ streamlit
 Pillow
 streamlit_extras
 st_pages
-base64
-os
