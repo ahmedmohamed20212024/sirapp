@@ -2,7 +2,7 @@
 showSidebarNavigation = false
 
 [[pages]]
-path = "home/logo.py"
+path = "logo.py"
 name = "logo"
 icon = ":logo:"
 
