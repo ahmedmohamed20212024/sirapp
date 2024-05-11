@@ -78,7 +78,7 @@ form = f"""
             <div class="phone-email-input">
               <div class="password-field">
               <div class="password-box"></div>
-              <input class="password-box" type="email" name="email" placeholder="Your phone or email@gmail.com">
+              <input class="password-box" type="email" name="email" placeholder="Your phone or email@gmail.com" required>
             </div>
               <div class="email-input">
                 <img class="email-input-child" alt="" src="data:image/png;base64,{data_url2}" alt="cat png"/>
@@ -86,7 +86,7 @@ form = f"""
             </div>
             <div class="password-field">
               <div class="password-box"></div>
-              <input class="password-box" type="password" name="password" placeholder="Your password">
+              <input class="password-box" type="password" name="password" placeholder="Your password" required>
             </div>
           </div>
           <button class="auth-buttons">
